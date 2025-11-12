@@ -1,0 +1,31 @@
+Includes the standard input-output header file so that you can use functions like printf() and scanf().
+Declares and initializes an array prices that stores the cost of each menu item:
+Coffee ₹50, Tea ₹30, Sandwich ₹80, Burger ₹120, Pastry ₹60.
+Declares a 2D character array to store the names of the 5 menu items.
+Initializes an array to track how many of each item is sold. Initially, all values are 0.
+Declares variables:
+customers: number of customers for the day.
+i, j: loop counters.
+totalItemsSold: total quantity of all items sold.
+totalRevenue: total money earned for the day.
+Loops through all 5 items and displays:
+Item number, Item name, Price.
+Asks the user how many customers are to be processed (up to 10).
+Input validation: ensures the number of customers is between 1 and 10.
+If not, the program stops early using return 0.
+A loop that runs once for each customer to process their orders.
+Local variables inside the loop:
+orderCount: how many items this customer wants.
+itemNo: which item number from the menu they choose.
+qty: how many units of that item they order.
+bill: stores this customer’s total bill.
+Prints a customer heading and asks how many different items they want to order.
+Calculates cost for that item and adds to the customer’s total bill.
+Updates the total quantity sold for that specific item.
+Updates the overall item sales count for the café.
+Finds which item was ordered the most and which the least:
+Compares all elements of sold[].
+Stores the index of highest and lowest sold quantities.
+Displays the final café summary, including:
+Total money earned, Total number of items sold, Most popular item, Least popular item.
+Ends the program successfully.
